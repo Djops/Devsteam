@@ -52,6 +52,7 @@ a {
     text-decoration: none !important;
 }
 
+
 a:hover {
     color: #000000 !important;
 }
@@ -342,8 +343,28 @@ a:hover {
 /* /OUR SERVICES  */
 
 
+/* .portfoilio-img-three-container-two {
+    background         : url(/img/three.jpg);
+    background-position: center;
+    background-repeat  : no-repeat;
+} */
 
 /* BLOG  */
+
+.blog-block-right-img-wrapper {
+    max-width: 450px;
+    height   : 345px;
+    margin   : 0 auto;
+}
+
+.blog-block-right-img {
+    background         : url(/img/blog_img.png);
+    background-size    : 100% 100%;
+    background-position: center;
+    background-repeat  : no-repeat;
+    height             : 100%;
+
+}
 
 .blog {
     margin-top: 50px;
@@ -409,14 +430,12 @@ a:hover {
 
 .portfoilio-img-left-one {
     background         : url(/img/one.jpg);
-    width              : 100%;
     background-position: center;
     background-repeat  : no-repeat;
 }
 
 .portfoilio-img-right-two {
     background         : url(/img/two.jpg);
-    width              : 100%;
     background-position: center;
     background-repeat  : no-repeat;
 }
@@ -856,9 +875,6 @@ a:hover {
     }
 
 
-
-
-
     /* help-you */
 
     .help-you {
@@ -872,6 +888,10 @@ a:hover {
 
 
     /* blog */
+
+    .blog-block-right-img {
+        background-size: 95% 95%;
+    }
 
     .blog-section-two {
         margin-top: 10px;
