@@ -1,0 +1,1026 @@
+/*  fonts  */
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+
+.somTest {
+    height: 350px;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+.fas {
+    font-size: 12px;
+}
+
+.container {
+    max-width: 1330px !important;
+}
+
+p {
+    margin-top   : 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.header-top {
+    background-color: #F9FAFD;
+
+}
+
+.header-top-ul {
+    display        : flex;
+    justify-content: flex-end;
+    margin         : 0px;
+    padding        : 0px;
+    height         : 42px;
+
+}
+
+.header-top-li {
+    color     : #000000;
+    padding   : 8px;
+    list-style: none;
+    cursor    : pointer;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #000000 !important;
+}
+
+.header-top-li a {
+    font-size      : 14px;
+    color          : #000000;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-size  : 14px;
+    color      : #3a3a3a !important;
+    font-weight: bold;
+    padding    : 14px !important;
+}
+
+.header-nav {
+    margin-top: 10px;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.nav-wrapper {
+    border-bottom: 1px solid #dcdcdc;
+
+}
+
+.nav-btn {
+    border-radius   : 50px;
+    padding-left    : 20px;
+    padding-right   : 20px;
+    font-size       : 13px !important;
+    color           : #2355DA;
+    border          : 2px solid #2355DA !important;
+    line-height     : 3.2em;
+    font-weight     : bold;
+    background-color: #fff;
+    transition      : all .2s linear;
+}
+
+.nav-btn:hover {
+    background-color: #2355DA;
+    color           : #F9FAFD;
+    transition      : all .2s linear;
+}
+
+.nav-btn+.call {
+    border-radius: 50px;
+    padding-left : 20px;
+    padding-right: 20px;
+    font-size    : 13px !important;
+    color        : #4DE55C;
+    border       : 2px solid #4DE55C !important;
+    line-height  : 3.2em;
+    margin-left  : 5px;
+}
+
+.nav-btn+.call:hover {
+    color           : #F9FAFD;
+    background-color: #4DE55C;
+}
+
+.phone-style {
+    margin-left: 3px;
+}
+
+
+
+
+/* CONCEPT */
+
+.concept-title-style {
+    font-family: "Montserrat", Sans-serif;
+    font-size  : 40px;
+    font-weight: 700;
+    line-height: 1.6em;
+}
+
+.cardStyle {
+    width : 650px;
+    height: 660px;
+}
+
+
+.card-title {
+    font-family   : "Montserrat", Sans-serif;
+    font-size     : 40px;
+    font-weight   : 400;
+    text-transform: uppercase;
+    color         : #000000;
+    align-self    : center;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-img-style {
+
+    width: 100%;
+}
+
+.card-body-wrapper-img {
+    display: flex;
+    padding: 45px !important;
+}
+
+.card-body {
+    display: flex;
+}
+
+.swiper-slide-image {
+    width : 540px;
+    height: 550px;
+}
+
+
+/* /CONCEPT */
+
+
+
+/*  WHAT-WE-DO */
+
+.what-we-do {
+    background-color: #F9FAFD;
+    height          : 410px;
+    padding         : 50px 0;
+}
+
+.what-we-do-wrapper {
+    text-align: center;
+}
+
+.what-we-do-title {
+    font-family: "Montserrat", Sans-serif;
+    font-size  : 50px;
+    font-weight: bold;
+    line-height: 1.4em;
+    color      : #000000;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, .11);
+}
+
+
+.what-we-do-title-style {
+    font-family   : "Montserrat", Sans-serif;
+    font-size     : 50px;
+    font-weight   : 300;
+    text-transform: uppercase;
+    color         : #000000;
+}
+
+.what-we-do-text-style {
+    font-family: "Montserrat", Sans-serif;
+    font-size  : 14px;
+    font-weight: 500;
+    line-height: 27px;
+    color      : #000000;
+}
+
+.what-we-do-btn {
+    margin-top      : 45px;
+    width           : 178px;
+    font-family     : "Montserrat", Sans-serif;
+    border-radius   : 50px;
+    padding-left    : 20px;
+    padding-right   : 20px;
+    font-size       : 16px !important;
+    color           : #fff;
+    border          : 2px solid #2355DA !important;
+    line-height     : 3.2em;
+    font-weight     : bold;
+    background-color: #2355DA;
+    transition      : all .2s linear;
+}
+
+
+.what-we-do-btn:hover {
+    color           : #2355DA;
+    border          : 2px solid #2355DA !important;
+    line-height     : 3.2em;
+    font-weight     : bold;
+    background-color: #fff;
+    transition      : all .2s linear;
+}
+
+/* /WHAT-WE-DO */
+
+
+
+
+/* HELP-YOU */
+
+
+.help-you {
+    background-image: url(https://www.sparkleappz.com/wp-content/uploads/2019/12/blue_img-2.png);
+}
+
+.help-you-wrapper {
+    text-align: center;
+    max-width : 1180px;
+    margin    : 0 auto;
+    padding   : 10px 10px;
+    height    : 293px;
+}
+
+.help-you-title {
+    font-size     : 42px;
+    font-family   : 'Archivo Black', sans-serif;
+    font-weight   : bold;
+    color         : #fff;
+    padding-top   : 73px;
+    padding-bottom: 21px;
+    margin-bottom : 0;
+}
+
+.help-you-text {
+    font-size     : 14px;
+    color         : #fff;
+    padding-bottom: 85px;
+}
+
+.help-you-text-style {
+    font-weight: bold;
+}
+
+.decoration {
+    color: #fff !important;
+}
+
+.decoration:hover {
+    color: #fff !important;
+}
+
+
+/* /HELP-YOU */
+
+
+
+/* OUR SERVICES  */
+
+.our-services-block-style {
+    display: flex;
+    margin : 10px;
+    padding: 10px !important;
+}
+
+
+.our-services {
+    padding: 75px 0;
+}
+
+.our-services-wrapper {
+    padding   : 10px 0;
+    text-align: center;
+}
+
+.our-services-block-wrapper {
+    width       : 318px;
+    padding-left: 17px;
+}
+
+.our-services-title {
+    font-size  : 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+.our-services-subtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 22px;
+    margin     : 0 0 20px;
+    color      : #000000;
+    text-align : left;
+}
+
+
+.our-services-text {
+    text-align : left;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    line-height: 2em;
+}
+
+/* /OUR SERVICES  */
+
+
+
+/* BLOG  */
+
+.blog {
+    margin-top: 50px;
+    padding   : 20px 0;
+}
+
+
+.blog-block-right-style {
+    margin : 0 0 0 32px;
+    padding: 0 0 0 10px;
+}
+
+.blog-title {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 42px;
+    margin     : 50px 0 20px;
+    color      : #3a3a3a;
+}
+
+.blog-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    color      : #3a3a3a;
+    margin     : 0 0 22.4px;
+}
+
+.blog-btn {
+    margin-top      : 90px;
+    width           : 285.52px;
+    height          : 38px;
+    font-family     : 'Varela Round', sans-serif;
+    font-size       : 18px;
+    border-radius   : 50px;
+    color           : #fff;
+    background-color: #0693e3;
+    ;
+    transition     : all .2s linear;
+    text-decoration: none;
+    border         : none;
+}
+
+.blog-btn:hover {
+    background-color: #3a3a3a;
+    transition      : all .2s linear;
+}
+
+
+.portfolio-items {
+    padding-top: 20px;
+}
+
+.blog-wrapper {
+    background-color: #eeeeee;
+    height          : 929px;
+    padding-top     : 120px;
+}
+
+.blog-container {
+    width      : 1220px !important;
+    padding-top: 100px;
+}
+
+
+.portfoilio-img-left-one {
+    background         : url(/img/one.jpg);
+    width              : 100%;
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+.portfoilio-img-right-two {
+    background         : url(/img/two.jpg);
+    width              : 100%;
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+.img-portfolio-one {
+    align-content: center;
+}
+
+.portfoilio-left-block-wrapper {
+    background-color: rgba(0, 0, 0, 0.521);
+    width           : 100%;
+    height          : 539px;
+}
+
+.portfoilio-block-left-style {
+    padding    : 120px;
+    margin-left: 30px;
+}
+
+.blog-portfolio-content-wrapper {
+    display        : flex;
+    justify-content: space-between;
+    width          : 250px;
+    margin         : 0 0 15px;
+}
+
+
+.blog-portfoilio-block-title {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 30px;
+    color      : #fff;
+    margin     : 0 0 15px;
+}
+
+
+.portfoilio-time {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 11px;
+    color      : #fff;
+
+}
+
+.blog-portfoilio-block-comments {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 11px;
+    color      : #fff;
+
+}
+
+
+.blog-portfoilio-block-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    color      : #fff;
+    padding    : 0 0 25px;
+    line-height: 1.85714285714286;
+}
+
+.portfolio-btn {
+    font-family    : 'Varela Round', sans-serif;
+    font-size      : 14px;
+    width          : 93.16px;
+    height         : 36px;
+    font-weight    : bolder;
+    color          : #313131;
+    text-decoration: none;
+    border         : none;
+}
+
+.portfoilio-right-block-wrapper {
+    background-color: rgba(0, 0, 0, 0.521);
+    width           : 100%;
+    height          : 539px;
+}
+
+.blog-img-wrapper {
+    margin-top: 150px;
+}
+
+.portfoilio-block-right-style {
+    padding    : 120px;
+    margin-left: 30px;
+}
+
+
+.portfolio-blog-container-two {
+    margin-top   : -100px;
+    margin-bottom: 20px;
+
+}
+
+.blog-container-two {
+    width: 1220px !important;
+}
+
+.portfoilio-block-wrapper {
+    background-color: #eeeeee;
+}
+
+.blog-portfoilio-block-title-two {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 25px;
+    color      : #3b3b3b;
+    margin     : 0 0 15px;
+}
+
+.portfoilio-block-left-style-two {
+    padding: 20px;
+}
+
+.portfoilio-block-right-style-two {
+    padding: 20px;
+}
+
+.portfoilio-time-two {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 11px;
+    color      : #777777;
+    padding    : 0 10px 0 0;
+}
+
+.blog-portfoilio-block-comments-two {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 11px;
+    color      : #777777;
+    padding    : 0 10px 0 0;
+}
+
+.blog-portfoilio-block-text-two {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    color      : #3a3a3a;
+    margin     : 0 0 25px 0;
+    line-height: 1.85714285714286;
+}
+
+.portfolio-btn-two {
+    font-family     : 'Varela Round', sans-serif;
+    font-size       : 14px;
+    width           : 93.16px;
+    height          : 36px;
+    font-weight     : bolder;
+    color           : #ffffff;
+    text-decoration : none;
+    border          : none;
+    background-color: #333;
+    margin-top      : 25px;
+}
+
+.portfoilio-img-two-wrapper {
+    width : 100%;
+    height: 357px;
+}
+
+
+
+.portfoilio-img-three-container-two {
+    background         : url(/img/three.jpg);
+    background-size    : 100% 100%;
+    background-position: center;
+    background-repeat  : no-repeat;
+    height             : 100%;
+}
+
+.portfoilio-img-four-container-two {
+    background         : url(/img/four.jpg);
+    background-size    : 100% 100%;
+    background-position: center;
+    background-repeat  : no-repeat;
+    height             : 100%;
+}
+
+/* /BLOG  */
+
+
+
+/* /FOOTER  */
+
+.footer {
+    height          : 448.49px;
+    background-color: #eeeeee;
+    margin-top      : 100px;
+    height          : auto;
+}
+
+.footer-wrapper {
+    padding: 70px 0 12px;
+
+}
+
+.footer-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 12px;
+    color      : #000000;
+    line-height: 1.85714285714286;
+    text-align : justify;
+    padding-top: 40px;
+}
+
+.footer-title {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 20px;
+    color      : #000000;
+    margin     : 0 0 20px;
+}
+
+.footer-list {
+    padding: 0 !important;
+
+}
+
+.footer-list-item {
+    list-style: none;
+
+}
+
+.footer-list-item-first {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 12px;
+    color      : #000000;
+    margin     : 0 0 0 5px;
+    padding    : 0 0 13.5px;
+}
+
+.footer-list-item {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 12px;
+    color      : #000000;
+    margin     : 0 0 0 5px;
+    padding    : 13.5px 0;
+}
+
+.footer-list-subtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 12px;
+    color      : #000000;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.footer-list-item-text {
+    padding    : 5px 0;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 12px;
+    color      : #000000;
+    list-style : none;
+}
+
+.footer-list-item-skype {
+    color      : #1304e4;
+    padding    : 0 0 0 15px;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 12px;
+    color      : #000000;
+    font-weight: bold;
+}
+
+.footer-list-item-email {
+    color      : #1304e4;
+    padding    : 0 0 0 15px;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 12px;
+    color      : #000000;
+    font-weight: bold;
+}
+
+.footer-list-item-phone {
+    color      : #1304e4;
+    padding    : 0 0 0 15px;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 12px;
+    color      : #000000;
+    font-weight: bold;
+}
+
+.copyright {
+    padding    : 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    color      : #000000;
+}
+
+.footer-style {
+    text-align: center;
+}
+
+
+/* FOOTER  */
+
+
+
+/* /CONCEPT */
+
+
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1116px) {}
+
+@media (max-width: 992px) {
+
+    /* concept */
+
+    .concept-title-style {
+        font-size: 32px;
+    }
+
+    .card-title {
+        font-size: 32px;
+    }
+
+    .cardStyle {
+        width : 100%;
+        height: auto;
+    }
+
+    .blog-wrapper {
+        background-color: #eeeeee;
+        height          : auto;
+    }
+
+    /*blog */
+
+    .portfolio-blog-container-two {
+        margin-top   : 150px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .our-services-block-center {
+        align-items: center;
+    }
+
+    /* concept */
+
+    .concept-title-style {
+        font-size: 26px;
+    }
+
+    .card-title {
+        font-size: 26px;
+    }
+
+    /*blog */
+
+    .margin-top {
+        margin-top: 25px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    /* concept */
+
+    .cardStyle {
+        text-align: center;
+    }
+
+    .concept-title-style {
+        font-size: 27px;
+
+    }
+
+    .card-title {
+        font-size: 27px;
+    }
+
+    .card-body-wrapper-img {
+        padding: 10px !important;
+    }
+
+
+
+
+    /* what-we-do */
+
+    .what-we-do-title-style {
+        font-size: 47px;
+    }
+
+
+
+
+    /* our-services */
+
+
+
+    .our-services-block-wrapper {
+        width  : auto;
+        padding: 0px;
+    }
+
+    .blog-text {
+        font-size : 18px;
+        text-align: initial;
+    }
+
+    .our-services-title {
+        margin-top: 30px;
+    }
+
+    .our-services {
+        padding: 50px 0;
+    }
+
+    .our-services-block-style {
+        display   : inline-block;
+        margin    : 10px;
+        padding   : 10px !important;
+        text-align: center;
+    }
+
+    .our-services-block-wrapper {
+        text-align: center;
+    }
+
+
+    .our-services-subtitle {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .our-services-text {
+        text-align: center;
+    }
+
+
+
+
+
+    /* help-you */
+
+    .help-you {
+        margin-top: 200px;
+        height    : 430px;
+
+    }
+
+
+
+
+
+    /* blog */
+
+    .blog-section-two {
+        margin-top: 10px;
+    }
+
+    .blog-container-two {
+        width: 375px !important;
+    }
+
+    .blog {
+        margin-top: 0px;
+        padding   : 20px 0;
+        text-align: center;
+    }
+
+    .blog-title {
+        margin: 5px 0 20px;
+    }
+
+    .blog-block-right-style {
+        margin : 50px 0;
+        padding: 0 0 0 10px;
+    }
+
+    .portfoilio-img-left-one {
+        background         : url(/img/one.jpg);
+        background-size    : 176%;
+        background-position: center;
+        background-repeat  : no-repeat;
+
+    }
+
+    .portfoilio-img-right-two {
+        background         : url(/img/two.jpg);
+        background-size    : 176%;
+        width              : 100%;
+        background-position: center;
+        background-repeat  : no-repeat;
+
+        margin-top: 20px;
+    }
+
+    .blog-img-wrapper {
+        width   : 362px !important;
+        overflow: hidden;
+    }
+
+    .portfoilio-left-block-wrapper {
+        background-color: rgba(0, 0, 0, 0.521);
+
+        height: 331px;
+    }
+
+    .blog-wrapper {
+        background-color: #eeeeee;
+        height          : 929px;
+    }
+
+    .somejopa {
+        width: 400px !important;
+    }
+
+    .portfoilio-block-left-style {
+        padding-left : 40px;
+        padding-right: 30px;
+        width        : 335px;
+
+    }
+
+    .portfoilio-right-block-wrapper {
+        background-color: rgba(0, 0, 0, 0.521);
+        height          : 331px;
+    }
+
+    .blog-portfoilio-block-title {
+        font-size: 23px;
+    }
+
+    .portfoilio-block-right-style {
+        padding: 23px;
+    }
+
+    .blog-portfoilio-block-text {
+
+        line-height: 1.5;
+    }
+
+    .blog-portfolio-content-wrapper {
+        display: inline-block;
+
+    }
+
+    .portfoilio-block-left-style {
+        padding: 26px;
+    }
+
+
+    .blog-two-img {
+        width          : 97%;
+        height         : auto;
+        background-size: -4%;
+        margin-left    : 10px;
+    }
+
+
+    .blog-portfoilio-block-title-two {
+        margin: 0 0 6px;
+    }
+
+    .blog-portfoilio-block-title-two {
+        font-size: 20px;
+        margin   : 0 0 15px;
+        width    : 300px;
+    }
+
+    .blog-portfoilio-block-text-two {
+        line-height: 1.5;
+        width      : 300px;
+    }
+
+    .portfolio-blog-container-two {
+        margin-top   : -100px;
+        margin-bottom: 20px;
+    }
+
+    .portfoilio-img-three-container-two {
+        background         : url(/img/three.jpg);
+        background-size    : 100% 96%;
+        background-position: center;
+        background-repeat  : no-repeat;
+
+    }
+
+    .portfoilio-img-four-container-two {
+        background         : url(/img/four.jpg);
+        background-size    : 100% 96%;
+        background-position: center;
+        background-repeat  : no-repeat;
+
+    }
+
+    .portfoilio-block-wrapper {
+        margin-top: -10px;
+    }
+
+
+    /* footer */
+
+    .footer-title {
+        margin: 25px 0 20px;
+    }
+}
