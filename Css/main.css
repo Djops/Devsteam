@@ -344,10 +344,6 @@ a:hover {
 
 /* WORKED WITH CARUSEL  */
 
-/* font-family: 'Varela Round', sans-serif;
-font-family   : 'Poppins', sans-serif;
-font-family   : 'Montserrat', sans-serif;
-font-family   : 'Archivo Black', sans-serif; */
 
 .worked-with {
     background-color: #F9FAFD;
@@ -392,7 +388,7 @@ font-family   : 'Archivo Black', sans-serif; */
 .circle-wrraper {
     display        : flex;
     justify-content: center;
-    margin-left    : -65px;
+    padding-right  : 20px;
     padding-bottom : 75px;
 
 }
@@ -411,8 +407,7 @@ font-family   : 'Archivo Black', sans-serif; */
     width          : 1280px;
     display        : flex;
     justify-content: space-between;
-    padding-left   : 20px;
-    padding-right  : 20px;
+    padding-left   : 45px;
 }
 
 .carusel-wrapper-img-block-one {
@@ -479,9 +474,90 @@ font-family   : 'Archivo Black', sans-serif; */
 }
 
 
-
-
 /* /WORKED WITH CARUSEL  */
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+
+
+/* PORTFOLIO */
+
+.portfolio-wrapper {
+    text-align: center;
+}
+
+.porfolio-title {
+    font-family: 'Poppins', sans-serif;
+    font-style : 42px;
+    color      : #000000;
+    font-weight: 700px;
+    text-align : center;
+}
+
+
+.portfolio-img-one {
+    width : 100%;
+    height: auto;
+}
+
+.portfolio-img-two {
+    width : 100%;
+    height: auto;
+}
+
+.portfolio-img-three {
+    width : 100%;
+    height: auto;
+}
+
+
+.portfolio-img-four {
+    width : 100%;
+    height: auto;
+}
+
+
+.portfolio-img-five {
+    width : 100%;
+    height: auto;
+}
+
+
+.portfolio-img-six {
+    width : 100%;
+    height: auto;
+}
+
+
+
+
+
+.check-out-other-projects-btn {
+    margin-top      : 90px;
+    width           : 285.52px;
+    height          : 38px;
+    font-family     : 'Varela Round', sans-serif;
+    font-size       : 18px;
+    border-radius   : 50px;
+    color           : #fff;
+    background-color: #0693e3;
+    ;
+    transition     : all .2s linear;
+    text-decoration: none;
+    border         : none;
+    margin         : 0 auto;
+}
+
+.check-out-other-projects-btn:hover {
+    background-color: #3a3a3a;
+    transition      : all .2s linear;
+}
+
+
+/* /PORTFOLIO */
 
 
 
@@ -932,8 +1008,8 @@ font-family   : 'Archivo Black', sans-serif; */
     }
 
     .carusel-wrapper-img-block-one {
-        width : 100%;
-       
+        width: 100%;
+
     }
 
     .carusel-wrapper-img-block-two {
