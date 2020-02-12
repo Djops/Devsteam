@@ -6,9 +6,6 @@ font-family   : 'Montserrat', sans-serif;
 font-family   : 'Archivo Black', sans-serif; */
 
 
-.somTest {
-    height: 350px;
-}
 
 body {
     font-family: 'Varela Round', sans-serif !important;
@@ -27,9 +24,9 @@ p {
     margin-bottom: 0 !important;
 }
 
+
 .header-top {
     background-color: #F9FAFD;
-
 }
 
 .header-top-ul {
@@ -178,6 +175,7 @@ a:hover {
 
 
 /*  WHAT-WE-DO */
+
 
 .what-we-do {
     background-color: #F9FAFD;
@@ -343,11 +341,151 @@ a:hover {
 /* /OUR SERVICES  */
 
 
-/* .portfoilio-img-three-container-two {
-    background         : url(/img/three.jpg);
-    background-position: center;
-    background-repeat  : no-repeat;
-} */
+
+/* WORKED WITH CARUSEL  */
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+.worked-with {
+    background-color: #F9FAFD;
+}
+
+.worked-with-title {
+    text-align   : center;
+    font-size    : 42px;
+    font-family  : 'Poppins', sans-serif;
+    font-weight  : bold;
+    margin-top   : 75px;
+    margin-bottom: 15px;
+}
+
+/* arrow  */
+
+.right {
+    transform        : rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border           : solid rgb(82, 82, 82);
+    border-width     : 0 4px 4px 0;
+    display          : inline-block;
+    padding          : 5px;
+    margin-top       : 75px;
+    border-radius    : 20%;
+
+}
+
+.left {
+    transform        : rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border           : solid rgb(82, 82, 82);
+    border-width     : 0 4px 4px 0;
+    display          : inline-block;
+    padding          : 5px;
+    margin-top       : 75px;
+    border-radius    : 20%;
+}
+
+/* /arrow */
+
+.circle-wrraper {
+    display        : flex;
+    justify-content: center;
+    margin-left    : -65px;
+    padding-bottom : 75px;
+
+}
+
+.circle {
+    width           : 7px;
+    height          : 7px;
+    background-color: rgba(64, 99, 215, 0.397);
+    border-radius   : 50%;
+    margin-left     : 15px;
+    margin-top      : 50px;
+
+}
+
+.carusel-block {
+    width          : 1280px;
+    display        : flex;
+    justify-content: space-between;
+    padding-left   : 20px;
+    padding-right  : 20px;
+}
+
+.carusel-wrapper-img-block-one {
+    width: 100%;
+}
+
+.carusel-wrapper-img-block-two {
+    width: 100%;
+}
+
+.carusel-wrapper-img-block-three {
+    width: 100%;
+}
+
+.carusel-wrapper-img-block-four {
+    width: 100%;
+}
+
+.carusel-wrapper-img-block-five {
+    width: 100%;
+}
+
+.carusel-img-one {
+    background       : url(/img/carusel/caru1.png);
+    background-size  : cover;
+    background-repeat: no-repeat;
+    background-size  : 100%;
+    height           : 168px;
+}
+
+.carusel-img-two {
+    background       : url(/img/carusel/caru2.png);
+    background-size  : cover;
+    background-repeat: no-repeat;
+    background-size  : 100%;
+    height           : 168px;
+
+}
+
+.carusel-img-three {
+    background       : url(/img/carusel/caru3.png);
+    background-size  : cover;
+    background-repeat: no-repeat;
+    background-size  : 100%;
+    height           : 169px;
+
+}
+
+.carusel-img-four {
+    background       : url(/img/carusel/caru4.png);
+    background-size  : cover;
+    background-repeat: no-repeat;
+    background-size  : 100%;
+    height           : 168px;
+
+}
+
+.carusel-img-five {
+    background       : url(/img/carusel/caru5.png);
+    background-size  : cover;
+    background-repeat: no-repeat;
+    background-size  : 100%;
+    height           : 168px;
+}
+
+
+
+
+/* /WORKED WITH CARUSEL  */
+
+
+
+
 
 /* BLOG  */
 
@@ -363,7 +501,6 @@ a:hover {
     background-position: center;
     background-repeat  : no-repeat;
     height             : 100%;
-
 }
 
 .blog {
@@ -737,6 +874,98 @@ a:hover {
 
 @media (max-width: 992px) {
 
+
+    /* worked with */
+
+
+
+    .worked-with-title {
+        text-align   : center;
+        font-size    : 42px;
+        font-family  : 'Poppins', sans-serif;
+        font-weight  : bold;
+        margin-top   : 75px;
+        margin-bottom: 15px;
+    }
+
+    /* arrow  */
+
+
+    .right {
+        transform        : rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        border           : solid rgb(82, 82, 82);
+        border-width     : 0 4px 4px 0;
+        display          : inline-block;
+        padding          : 5px;
+        margin-top       : 135px;
+        border-radius    : 20%;
+    }
+
+    .left {
+        transform        : rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        border           : solid rgb(82, 82, 82);
+        border-width     : 0 4px 4px 0;
+        display          : inline-block;
+        padding          : 5px;
+        margin-top       : 135px;
+        border-radius    : 20%;
+    }
+
+    /* /arrow */
+
+    .circle-wrraper {
+        margin-left: 0px;
+    }
+
+    .circle {
+        margin-top: 0px;
+    }
+
+    .carusel-block {
+        width          : 1280px;
+        display        : flex;
+        justify-content: space-between;
+        padding-left   : 20px;
+        padding-right  : 20px;
+    }
+
+    .carusel-wrapper-img-block-one {
+        width : 100%;
+       
+    }
+
+    .carusel-wrapper-img-block-two {
+        width: 100%;
+    }
+
+    .carusel-wrapper-img-block-three {
+        display: none;
+    }
+
+    .carusel-wrapper-img-block-four {
+        display: none;
+    }
+
+    .carusel-wrapper-img-block-five {
+        display: none;
+    }
+
+    .carusel-img-one {
+        height: 300px;
+    }
+
+    .carusel-img-two {
+        height: 300px;
+
+    }
+
+    /* worked with */
+
+
+
+
     /* concept */
 
     .concept-title-style {
@@ -768,6 +997,14 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+
+    /* worked with */
+
+
+
+    /* /worked with */
+
+
     .our-services-block-center {
         align-items: center;
     }
@@ -788,17 +1025,31 @@ a:hover {
         margin-top: 25px;
     }
 
-
-
-
-
-
 }
 
 
 
 
 @media (max-width: 576px) {
+
+    /* worked with */
+
+    .circle-wrraper {
+        margin-left: 0px;
+    }
+
+    .circle {
+        margin-top: 20px;
+    }
+
+    .carusel-wrapper-img-block-two {
+        display: none;
+    }
+
+
+    /* worked with */
+
+
 
     /* concept */
 
@@ -820,20 +1071,13 @@ a:hover {
     }
 
 
-
-
     /* what-we-do */
 
     .what-we-do-title-style {
         font-size: 47px;
     }
 
-
-
-
     /* our-services */
-
-
 
     .our-services-block-wrapper {
         width  : auto;
@@ -882,9 +1126,6 @@ a:hover {
         height    : 430px;
 
     }
-
-
-
 
 
     /* blog */
@@ -950,9 +1191,6 @@ a:hover {
         height          : 929px;
     }
 
-    .somejopa {
-        width: 400px !important;
-    }
 
     .portfoilio-block-left-style {
         padding-left : 40px;
@@ -1043,4 +1281,10 @@ a:hover {
     .footer-title {
         margin: 25px 0 20px;
     }
-}
+
+
+    /* worked with  */
+
+
+
+    /* /worked with  */
