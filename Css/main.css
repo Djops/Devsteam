@@ -369,7 +369,6 @@ a:hover {
     padding          : 5px;
     margin-top       : 75px;
     border-radius    : 20%;
-
 }
 
 .left {
@@ -474,16 +473,10 @@ a:hover {
 }
 
 
-/* /WORKED WITH CARUSEL  */
-
-/* font-family: 'Varela Round', sans-serif;
-font-family   : 'Poppins', sans-serif;
-font-family   : 'Montserrat', sans-serif;
-font-family   : 'Archivo Black', sans-serif; */
-
-
 
 /* PORTFOLIO */
+
+
 
 .portfolio-wrapper {
     text-align: center;
@@ -498,7 +491,6 @@ font-family   : 'Archivo Black', sans-serif; */
     margin-top   : 100px;
     margin-bottom: 35px;
 }
-
 
 .portfolio-img-one {
     width : 100%;
@@ -530,8 +522,8 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
 .portfolio-img-six {
-    width : 100%;
-    height: auto;
+    width        : 100%;
+    height       : auto;
     margin-bottom: 50px;
 }
 
@@ -564,10 +556,39 @@ font-family   : 'Archivo Black', sans-serif; */
     margin-left: 10px;
 }
 
-
-
-
 /* /PORTFOLIO */
+
+
+/* /WORKED WITH CARUSEL  */
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+
+
+/* GET APP */
+
+.section-get-app{
+    background-color: #2185f5;
+}
+
+.get-app-block-wrapper{
+    width: 1280px;
+    height: 100%;
+}
+
+.block-slider-img{
+    background       : url(/img/getApp/one.jpg);
+    background-size  : cover;
+    background-repeat: no-repeat;
+    background-size  : 100% 100%;
+    height: 777.33px;
+}
+
+
+/* /GET APP */
 
 
 
@@ -1120,7 +1141,7 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
     /* portfolio */
-    
+
     /* portfolio */
 
     /* worked with */
