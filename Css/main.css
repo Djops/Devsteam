@@ -490,11 +490,13 @@ font-family   : 'Archivo Black', sans-serif; */
 }
 
 .porfolio-title {
-    font-family: 'Poppins', sans-serif;
-    font-style : 42px;
-    color      : #000000;
-    font-weight: 700px;
-    text-align : center;
+    font-family  : 'Poppins', sans-serif;
+    font-style   : 42px;
+    color        : #000000;
+    font-weight  : bold;
+    text-align   : center;
+    margin-top   : 100px;
+    margin-bottom: 35px;
 }
 
 
@@ -523,38 +525,46 @@ font-family   : 'Archivo Black', sans-serif; */
 .portfolio-img-five {
     width : 100%;
     height: auto;
+
 }
 
 
 .portfolio-img-six {
     width : 100%;
     height: auto;
+    margin-bottom: 50px;
 }
-
-
-
 
 
 .check-out-other-projects-btn {
     margin-top      : 90px;
-    width           : 285.52px;
-    height          : 38px;
-    font-family     : 'Varela Round', sans-serif;
-    font-size       : 18px;
+    width           : 319.44px;
+    height          : 39px;
+    font-family     : 'Montserrat', sans-serif;
+    font-weight     : 500;
+    font-size       : 16px;
     border-radius   : 50px;
     color           : #fff;
     background-color: #0693e3;
-    ;
-    transition     : all .2s linear;
-    text-decoration: none;
-    border         : none;
-    margin         : 0 auto;
+    transition      : all .2s linear;
+    text-decoration : none;
+    border          : none;
+    margin          : 0 auto;
+    margin-bottom   : 100px;
 }
 
 .check-out-other-projects-btn:hover {
-    background-color: #3a3a3a;
     transition      : all .2s linear;
+    color           : rgb(235, 103, 103);
+    background-color: #ffffff;
+    border          : solid 1px rgb(235, 103, 103);
 }
+
+.fa-sm {
+    margin-left: 10px;
+}
+
+
 
 
 /* /PORTFOLIO */
@@ -1107,6 +1117,11 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
 @media (max-width: 576px) {
+
+
+    /* portfolio */
+    
+    /* portfolio */
 
     /* worked with */
 
