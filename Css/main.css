@@ -599,14 +599,14 @@ font-family   : 'Archivo Black', sans-serif; */
     margin-left  : -30px;
 }
 
-.get-app-circle-wrraper{
+.get-app-circle-wrraper {
     display        : flex;
     justify-content: center;
     padding-right  : 20px;
     padding-bottom : 20px;
 }
 
-.get-app-slider-circle{
+.get-app-slider-circle {
     width           : 6px;
     height          : 6px;
     background-color: rgba(64, 99, 215, 0.753);
@@ -615,7 +615,7 @@ font-family   : 'Archivo Black', sans-serif; */
     margin-top      : 50px;
 }
 
-.get-app-slider-circle-active{
+.get-app-slider-circle-active {
     background-color: rgba(0, 0, 0, 0.753);
     width           : 6px;
     height          : 6px;
@@ -626,9 +626,123 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
 
-
-
 /* /GET APP */
+
+
+
+/* PROCESS WE FOLLOW  */
+
+.process-we-follow-card-wrapper {
+    text-align: center;
+}
+
+.process-we-follow-card-wrapper-left {
+    text-align  : center;
+    padding-left: 30px;
+}
+
+.process-we-follow-card-wrapper-right {
+    text-align   : center;
+    padding-right: 30px;
+}
+
+.pocess-we-follow-number-title {
+    font-size  : 31px;
+    color      : #3a3a3a;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 20px;
+}
+
+.pocess-we-follow-title {
+    font-size     : 42px;
+    font-family   : 'Poppins', sans-serif;
+    font-weight   : bold;
+    text-align    : center;
+    padding-top   : 75px;
+    padding-bottom: 25px;
+}
+
+
+.pocess-we-follow-wrapper.one {
+    padding-left    : 17px;
+    padding         : 20px;
+    background-color: #FFFFFF;
+    box-shadow      : 0px 0px 8px -4px #000000;
+}
+
+.pocess-we-follow-wrapper.two {
+    padding-left    : 17px;
+    padding         : 20px 20px 44px;
+    background-color: #FFFFFF;
+    box-shadow      : 0px 0px 8px -4px #000000;
+}
+
+.pocess-we-follow-wrapper.three {
+    padding-left    : 17px;
+    padding         : 20px 20px 44px;
+    background-color: #FFFFFF;
+    box-shadow      : 0px 0px 8px -4px #000000;
+}
+
+.pocess-we-follow-wrapper.four {
+    padding-left    : 17px;
+    padding         : 20px;
+    background-color: #FFFFFF;
+    box-shadow      : 0px 0px 8px -4px #000000;
+}
+
+.pocess-we-follow-wrapper.five {
+    padding-left    : 17px;
+    padding         : 30px;
+    background-color: #FFFFFF;
+    box-shadow      : 0px 0px 8px -4px #000000;
+}
+
+.pocess-we-follow-wrapper.six {
+    padding-left    : 17px;
+    padding         : 30px;
+    background-color: #FFFFFF;
+    box-shadow      : 0px 0px 8px -4px #000000;
+}
+
+.pocess-we-follow-wrapper.seven {
+    padding-left    : 17px;
+    padding         : 30px 30px 44px;
+    background-color: #FFFFFF;
+    box-shadow      : 0px 0px 8px -4px #000000;
+}
+
+
+.pocess-we-follow-wrapper:hover {
+    box-shadow: 0px 0px 15px -3px #000000;
+}
+
+.process-we-follow-block-two-wrapper {
+    padding-left : 20px;
+    padding-right: 20px;
+    display      : flex;
+}
+
+.pocess-we-follow-subtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 21px;
+    margin     : 0 0 20px;
+    color      : #000000;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.pocess-we-follow-text{
+    text-align : left;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    line-height: 2em;
+    color: #7a7a7a;
+}
+
+
+/* /PROCESS WE FOLLOW  */
+
 
 
 
@@ -1022,9 +1136,19 @@ font-family   : 'Archivo Black', sans-serif; */
 @media (max-width: 992px) {
 
 
+    /* procces-we-follow */
+
+    .process-we-follow-card-wrapper-left {
+        padding-left: 0px;
+    }
+
+    .process-we-follow-card-wrapper-right {
+        padding-right: 0px;
+    }
+
+    /* /procces-we-follow */
+
     /* worked with */
-
-
 
     .worked-with-title {
         text-align   : center;
@@ -1144,6 +1268,8 @@ font-family   : 'Archivo Black', sans-serif; */
 }
 
 @media (max-width: 768px) {
+
+
 
     /* worked with */
 
