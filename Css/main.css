@@ -242,8 +242,6 @@ a:hover {
 /* /WHAT-WE-DO */
 
 
-
-
 /* HELP-YOU */
 
 
@@ -559,14 +557,6 @@ a:hover {
 /* /PORTFOLIO */
 
 
-/* /WORKED WITH CARUSEL  */
-
-/* font-family: 'Varela Round', sans-serif;
-font-family   : 'Poppins', sans-serif;
-font-family   : 'Montserrat', sans-serif;
-font-family   : 'Archivo Black', sans-serif; */
-
-
 
 /* GET APP */
 
@@ -632,6 +622,12 @@ font-family   : 'Archivo Black', sans-serif; */
 
 /* PROCESS WE FOLLOW  */
 
+
+.pocess-we-follow {
+    background-color: #F9FAFD;
+    padding-bottom  : 75px;
+}
+
 .process-we-follow-card-wrapper {
     text-align: center;
 }
@@ -647,9 +643,9 @@ font-family   : 'Archivo Black', sans-serif; */
 }
 
 .pocess-we-follow-number-title {
-    font-size  : 31px;
-    color      : #3a3a3a;
-    font-family: 'Varela Round', sans-serif;
+    font-size    : 31px;
+    color        : #3a3a3a;
+    font-family  : 'Varela Round', sans-serif;
     margin-bottom: 20px;
 }
 
@@ -729,19 +725,134 @@ font-family   : 'Archivo Black', sans-serif; */
     margin     : 0 0 20px;
     color      : #000000;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top : 15px;
 }
 
-.pocess-we-follow-text{
+.pocess-we-follow-text {
     text-align : left;
     font-family: 'Varela Round', sans-serif;
     font-size  : 14px;
     line-height: 2em;
-    color: #7a7a7a;
+    color      : #7a7a7a;
 }
 
 
 /* /PROCESS WE FOLLOW  */
+
+
+
+/* TOP RANKING ON */
+
+.top-ranking-on {
+    padding-bottom: 75px;
+}
+
+.top-ranking-on-title {
+    font-size     : 42px;
+    font-family   : 'Poppins', sans-serif;
+    font-weight   : bold;
+    text-align    : center;
+    padding-top   : 75px;
+    padding-bottom: 25px;
+    color         : #000000;
+}
+
+.top-ranking-on-img-wrapper {
+    text-align: center;
+}
+
+
+/* /TOP RANKING ON  */
+
+
+
+
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+
+
+
+
+/* WHAT CLIENTS SAY */
+
+.what-client-say {
+    background-color: #2355da;
+    padding         : 50px 5px 50px;
+}
+
+.what-clien-say-block-wrapper {
+    background-color: #fff;
+    padding         : 20px 0 20px;
+}
+
+.what-client-say-title {
+    font-family   : 'Poppins', sans-serif;
+    font-size     : 42px;
+    color         : #fff;
+    font-weight   : bold;
+    text-align    : center;
+    padding-bottom: 15px;
+}
+
+
+.what-clien-say-block-img {
+    width        : 100px;
+    height       : 100px;
+    border-radius: 50%;
+    border       : 5px solid rgba(255, 255, 255, .3);
+    display      : inline-block;
+    margin-top   : 0;
+    overflow     : hidden;
+    box-shadow   : 0 2px 6px rgba(0, 0, 0, .15);
+    margin       : 0 auto;
+    display      : block;
+}
+
+.what-clien-say-block-description {
+    text-align : center;
+    font-size  : 16px;
+    font-style : italic;
+    color      : gray;
+    line-height: 30px;
+    margin     : 10px 0 20px;
+    padding    : 0 10px 0;
+}
+
+.what-clien-say-client-name {
+    font-size     : 14px;
+    font-weight   : 700;
+    margin        : 0;
+    color         : #333;
+    text-transform: uppercase;
+    text-align    : center;
+}
+
+.what-clien-say-client-name-underline {
+    width  : 30px;
+    display: block;
+    margin : 10px auto;
+    border : 1px solid #d3d3d3;
+}
+
+
+.what-clien-say-client-company {
+    font-size     : 13px;
+    color         : #777;
+    margin-bottom : 15px;
+    text-transform: capitalize;
+    text-align    : center;
+
+}
+
+
+
+
+
+/* /WHAT CLIENTS SAY */
 
 
 
@@ -1305,6 +1416,18 @@ font-family   : 'Archivo Black', sans-serif; */
 
 @media (max-width: 576px) {
 
+    /* what-client-say */
+
+    .what-client-say-title {
+        font-family   : 'Poppins', sans-serif;
+        font-size     : 28.089px;
+        color         : #fff;
+        font-weight   : bold;
+        text-align    : center;
+        padding-bottom: 15px;
+    }
+
+    /* /what-client-say */
 
     /* portfolio */
 
