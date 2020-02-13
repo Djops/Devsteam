@@ -766,17 +766,6 @@ a:hover {
 
 
 
-
-
-/* font-family: 'Varela Round', sans-serif;
-font-family   : 'Poppins', sans-serif;
-font-family   : 'Montserrat', sans-serif;
-font-family   : 'Archivo Black', sans-serif; */
-
-
-
-
-
 /* WHAT CLIENTS SAY */
 
 .what-client-say {
@@ -849,13 +838,75 @@ font-family   : 'Archivo Black', sans-serif; */
 }
 
 
-
-
-
 /* /WHAT CLIENTS SAY */
 
 
 
+
+
+
+
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+
+
+
+
+/* OUR KEY FEATURES */
+
+.our-key-features {
+    padding: 75px 0;
+}
+
+.our-key-features-title {
+    font-size     : 42px;
+    font-family   : 'Poppins', sans-serif;
+    font-weight   : bold;
+    text-align    : center;
+    padding-bottom: 15px;
+}
+
+.our-key-features-subtitle {
+    font-family   : 'Varela Round', sans-serif;
+    font-size     : 14px;
+    font-weight   : bold;
+    color         : #000000;
+    text-align    : center;
+    padding-bottom: 15px;
+}
+
+.our-services-card-subtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 22px;
+    margin     : 0 0 20px;
+    color      : #000000;
+    text-align : left;
+    font-weight: bold;
+}
+
+.our-key-features-block-style {
+    display: flex;
+    padding: 10px !important;
+}
+
+.our-key-features-block-wrapper {
+    padding-left: 17px;
+}
+
+.our-key-features-text {
+    text-align : left;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    line-height: 2em;
+    color      : #7a7a7a;
+}
+
+
+/* /OUR KEY FEATURES */
 
 
 
@@ -1415,6 +1466,44 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
 @media (max-width: 576px) {
+
+    /* our key features */
+
+
+    .our-key-features-block-style {
+        display   : inline-block;
+        margin    : 10px;
+        padding   : 7px !important;
+        text-align: center;
+    }
+
+
+    .our-key-features-title {
+        font-size: 25px;
+    }
+
+    .our-key-features-subtitle {
+        font-weight: bold;
+    }
+
+    .our-services-card-subtitle {
+        text-align: center;
+        font-size : 21px;
+    }
+
+
+    .our-key-features-block-wrapper {
+        margin-top: 20px;
+    }
+
+    .our-key-features-text {
+        text-align: center;
+        font-size: 12.768px;
+    }
+
+    /* /our key features */
+
+
 
     /* what-client-say */
 
