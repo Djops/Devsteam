@@ -842,20 +842,6 @@ a:hover {
 
 
 
-
-
-
-
-
-/* font-family: 'Varela Round', sans-serif;
-font-family   : 'Poppins', sans-serif;
-font-family   : 'Montserrat', sans-serif;
-font-family   : 'Archivo Black', sans-serif; */
-
-
-
-
-
 /* OUR KEY FEATURES */
 
 .our-key-features {
@@ -907,6 +893,143 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
 /* /OUR KEY FEATURES */
+
+
+
+
+
+/* TECHNOLOGIES WE USE */
+
+.technologies-we-use {
+    background-color: #f9fafd;
+    padding         : 75px;
+}
+
+.technologies-we-use-block-wrapper {
+    display: flex;
+    margin : 0 auto;
+    width  : 1280px;
+}
+
+
+.technologies-we-use-title {
+    font-size     : 42px;
+    font-family   : 'Poppins', sans-serif;
+    font-weight   : bold;
+    text-align    : center;
+    padding-bottom: 25px;
+}
+
+
+
+.technologies-we-use-left-arrow {
+    transform        : rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border           : solid rgb(82, 82, 82);
+    border-width     : 0 4px 4px 0;
+    display          : inline-block;
+    padding          : 5px;
+    border-radius    : 20%;
+    position         : absolute;
+    bottom           : 50px;
+
+}
+
+.technologies-we-use-right-arrow {
+    transform        : rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border           : solid rgb(82, 82, 82);
+    border-width     : 0 4px 4px 0;
+    display          : inline-block;
+    padding          : 5px;
+    border-radius    : 20%;
+    position         : absolute;
+    bottom           : 50px;
+}
+
+.arrow-wrapper-left {
+    padding : 20px;
+    position: relative;
+}
+
+.arrow-wrapper-right {
+    position: relative;
+    padding : 10px;
+}
+
+/* /TECHNOLOGIES WE USE */
+
+
+
+
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+
+
+/* INDUSTRIES WE SERVE */
+
+
+
+.industries-we-serve {
+    padding: 75px 0;
+}
+
+
+.industries-we-serve-title {
+    font-family: 'Poppins', sans-serif;
+    font-size  : 42px;
+    font-weight: bold;
+    color      : #000000;
+    text-align : center;
+}
+
+
+.industries-we-serve-subtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    font-weight: bold;
+    color      : #000000;
+    text-align : center;
+    padding    : 20px 0 0;
+    margin     : 0 0 22.4px;
+}
+
+
+.industries-we-serve-card-wrapper {
+    margin          : 5px;
+    padding         : 20px;
+    background-color: rgba(179, 182, 191, 0.089);
+    text-align      : center;
+    width           : 100%;
+    height          : 100%
+}
+
+
+.industries-we-serve-card-subtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 21px;
+    font-weight: bold;
+    color      : #000000;
+    padding    : 0 0 20px;
+}
+
+.industries-we-serve-block {
+    padding: 5px !important;
+}
+
+/* /INDUSTRIES WE SERVE */
+
+
+
+
+
+
+
+
 
 
 
@@ -1295,7 +1418,23 @@ font-family   : 'Archivo Black', sans-serif; */
 
 @media (max-width: 1116px) {}
 
+
+/* ////////////////////////////////////////////  max-width: 992px     /////////////////////////////////////////////////////// */
+
+
+
 @media (max-width: 992px) {
+
+    /* technologies-we-use */
+
+    .technologies-we-use-block-three {
+        display: none;
+    }
+
+    /* /technologies-we-use */
+
+
+
 
 
     /* procces-we-follow */
@@ -1309,6 +1448,9 @@ font-family   : 'Archivo Black', sans-serif; */
     }
 
     /* /procces-we-follow */
+
+
+
 
     /* worked with */
 
@@ -1431,18 +1573,30 @@ font-family   : 'Archivo Black', sans-serif; */
 
 @media (max-width: 768px) {
 
+    /* industies we serv */
+
+    .industries-we-serve-block {
+        padding   : 10px !important;
+        flex-basis: auto !important;
+    }
+
+    .industries-we-serve-card-wrapper {
+        margin: 0;
+    }
+
+    /* industies we serv */
 
 
-    /* worked with */
 
-
-
-    /* /worked with */
-
+    /* our-services */
 
     .our-services-block-center {
         align-items: center;
     }
+
+    /* our-services */
+
+
 
     /* concept */
 
@@ -1454,21 +1608,48 @@ font-family   : 'Archivo Black', sans-serif; */
         font-size: 26px;
     }
 
-    /*blog */
+    /* /concept */
+
+
+
+    /* blog */
 
     .margin-top {
         margin-top: 25px;
     }
 
+    /* /blog */
+
 }
 
 
-
+/* ////////////////////////////////////////////   max-width: 576px      /////////////////////////////////////////////////////// */
 
 @media (max-width: 576px) {
 
-    /* our key features */
+    /* technologies-we-use */
 
+    .technologies-we-use-title {
+        font-size: 26.0896px;
+    }
+
+    .technologies-we-use-block-two {
+        display: none;
+    }
+
+
+    .technologies-we-use {
+        padding: 30px;
+    }
+
+
+    /* /technologies-we-use */
+
+
+
+
+
+    /* our key features */
 
     .our-key-features-block-style {
         display   : inline-block;
@@ -1498,7 +1679,7 @@ font-family   : 'Archivo Black', sans-serif; */
 
     .our-key-features-text {
         text-align: center;
-        font-size: 12.768px;
+        font-size : 12.768px;
     }
 
     /* /our key features */
