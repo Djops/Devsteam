@@ -1090,21 +1090,10 @@ a:hover {
 
 
 
-
-
-/* font-family: 'Varela Round', sans-serif;
-font-family   : 'Poppins', sans-serif;
-font-family   : 'Montserrat', sans-serif;
-font-family   : 'Archivo Black', sans-serif; */
-
-
-
-
 /* MEET THE TEAM */
 
 .meet-the-team {
-    padding         : 75px 0;
-    background-color: #f9fafd;
+    padding: 75px 0;
 }
 
 
@@ -1153,6 +1142,13 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
 
+
+
+
+
+
+
+
 /* font-family: 'Varela Round', sans-serif;
 font-family   : 'Poppins', sans-serif;
 font-family   : 'Montserrat', sans-serif;
@@ -1160,15 +1156,196 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
 
-
-
-
-
 /*  GET IN TOUCH conntact */
 
+.get-in-touch-conntact {
+    padding         : 75px 0;
+    background-color: #2355da;
+}
+
+.get-in-touch-form-wrapper {
+    background-color: #f9fafd;
+    padding         : 50px 20px;
+    text-align      : center;
+}
+
+.get-in-touch-form-title {
+    font-family  : 'Poppins', sans-serif;
+    font-size    : 30px;
+    font-weight  : bold;
+    color        : #000000;
+    text-align   : center;
+    margin-bottom: 10px;
+}
+
+.get-in-touch-form-subtitle {
+    line-height: 25px;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    text-align : center;
+    color      : #000000;
+    margin     : 0 0 24.4px;
+}
+
+.form-control-style {
+    height: 60px !important;
+}
+
+.form-control {
+    border-radius: 2px !important;
+    border       : solid 0.5px rgba(119, 119, 119, 0.096) !important;
+    padding      : 20px !important;
+}
+
+.get-in-touch-conntact-form-wrapper {
+    text-align   : center;
+    padding      : 50px 20px;
+    margin-bottom: 50px;
+}
+
+
+.get-in-touch-conntact-btn {
+    margin-top      : 10px;
+    width           : 194.44px;
+    height          : 48px;
+    font-family     : 'Montserrat', sans-serif;
+    font-weight     : 500;
+    font-size       : 16px;
+    border-radius   : 50px;
+    color           : #2355da;
+    background-color: #fff;
+    transition      : all .2s linear;
+    text-decoration : none;
+    border          : solid 0.5px #2355da;
+    margin-bottom   : 40px;
+    transition      : all .1s linear;
+}
+
+
+.get-in-touch-conntact-btn:hover {
+    color           : #ffffff;
+    background-color: #2355da;
+    transition      : all .1s linear;
+}
+
+.get-in-touch-conntact-form-wrapper {
+    padding: 64px 0px 0px 42px;
+}
+
+.get-in-touch-conntact-form-wrapper-two {
+    padding: 0px 15px 0px 30px;
+}
+
+.get-in-touch-conntact-block-style {
+    display: flex;
+}
+
+.get-in-touch-conntact-form-img-one {
+    margin-top: 50px;
+}
+
+.get-in-touch-conntact-form-img-two {
+    margin-top: 5px;
+}
+
+
+.get-in-touch-conntact-title {
+    font-family  : "Poppins", Sans-serif;
+    font-weight  : bold;
+    font-size    : 30px;
+    color        : #fff;
+    text-align   : left;
+    margin-bottom: 20px;
+
+}
+
+.get-in-touch-conntact-subtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 17px;
+    margin     : 0 0 20px;
+    color      : #fff;
+    font-weight: bold;
+    text-align : left;
+}
+
+.get-in-touch-conntact-text {
+    font-family   : 'Varela Round', sans-serif;
+    font-size     : 14px;
+    color         : #fff;
+    text-align    : left;
+    padding-bottom: 10px;
+}
+
+.fas-styly-conntact-form {
+    padding-right: 10px;
+}
+
+
+.get-in-touch-conntact-form-btns {
+    text-align: center;
+    margin-top: 20px;
+}
 
 
 
+
+
+.get-in-touch-conntact-call-btn {
+    margin-top      : 40px;
+    width           : 118px;
+    height          : 61.88px;
+    font-family     : 'Montserrat', sans-serif;
+    font-weight     : 500;
+    font-size       : 16px;
+    border-radius   : 50px;
+    color           : #fff;
+    background-color: #2355da;
+    transition      : all .2s linear;
+    text-decoration : none;
+    border          : solid 1.5px #fff;
+    transition      : all .1s linear;
+
+}
+
+
+.get-in-touch-conntact-call-btn:hover {
+    color           : #ffffff;
+    background-color: #23da3b;
+    transition      : all .1s linear;
+}
+
+
+.get-in-touch-conntact-whatsupp-btn {
+    margin-top      : 40px;
+    width           : 161.45px;
+    height          : 61.88px;
+    font-family     : 'Montserrat', sans-serif;
+    font-weight     : 500;
+    font-size       : 16px;
+    border-radius   : 50px;
+    color           : #fff;
+    background-color: #2355da;
+    transition      : all .2s linear;
+    text-decoration : none;
+    border          : solid 1.5px #fff;
+    transition      : all .1s linear;
+    margin-left: 10px;
+}
+
+
+.get-in-touch-conntact-whatsupp-btn:hover {
+    color           : #ffffff;
+    background-color: #23da3b;
+    transition      : all .1s linear;
+}
+
+
+.fas-styly-conntact-call-btn{
+   
+}
+.fas-styly-conntact-whatsupp-btn{
+padding-right: 5px;
+}
 
 /* /GET IN TOUCH conntact */
 
@@ -1778,6 +1955,14 @@ font-family   : 'Archivo Black', sans-serif; */
 @media (max-width: 576px) {
 
     /* meet-the-team */
+
+    .meet-the-team {
+        padding: 40px 0;
+    }
+
+    .meet-the-team-title {
+        font-size: 25px;
+    }
 
     .meet-the-team-car-block {
         margin-bottom: 40px;
