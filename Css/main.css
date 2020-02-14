@@ -1102,15 +1102,78 @@ font-family   : 'Archivo Black', sans-serif; */
 
 /* MEET THE TEAM */
 
+.meet-the-team {
+    padding         : 75px 0;
+    background-color: #f9fafd;
+}
 
 
+.meet-the-team-title {
+    font-family  : 'Poppins', sans-serif;
+    font-size    : 42px;
+    font-weight  : bold;
+    color        : #000000;
+    text-align   : center;
+    margin-bottom: 40px;
+}
+
+.meet-the-team-car-block {
+    text-align: center;
+    max-width : 350px !important;
+    margin    : 0 auto;
+}
+
+.meet-the-team-img {
+    border-radius: 50%;
+    width        : 100%;
+    height       : auto;
+}
+
+.meet-the-team-card-subtitle {
+    color      : #000;
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 20px;
+    font-weight: bold;
+    margin     : 15px 0 20px;
+}
 
 
-
+.meet-the-team-card-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size  : 14px;
+    color      : #7a7a7a;
+    font-weight: 500;
+    margin     : 0 0 24.4px;
+}
 
 
 
 /* /MEET THE TEAM */
+
+
+
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+
+
+
+
+
+
+/*  GET IN TOUCH conntact */
+
+
+
+
+
+/* /GET IN TOUCH conntact */
+
+
+
 
 
 
@@ -1713,6 +1776,23 @@ font-family   : 'Archivo Black', sans-serif; */
 /* ////////////////////////////////////////////   max-width: 576px      /////////////////////////////////////////////////////// */
 
 @media (max-width: 576px) {
+
+    /* meet-the-team */
+
+    .meet-the-team-car-block {
+        margin-bottom: 40px;
+    }
+
+    .meet-the-team-img {
+        border-radius: 50%;
+        width        : 250px;
+        height       : auto;
+    }
+
+    /* /meet-the-team */
+
+
+
 
     /* our-values */
 
