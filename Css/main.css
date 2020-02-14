@@ -146,6 +146,7 @@ a:hover {
     align-self    : center;
 }
 
+
 .card {
     border: none !important;
 }
@@ -1140,15 +1141,6 @@ a:hover {
 /* /MEET THE TEAM */
 
 
-
-
-
-
-
-
-
-
-
 /* font-family: 'Varela Round', sans-serif;
 font-family   : 'Poppins', sans-serif;
 font-family   : 'Montserrat', sans-serif;
@@ -1228,12 +1220,14 @@ font-family   : 'Archivo Black', sans-serif; */
     transition      : all .1s linear;
 }
 
-.get-in-touch-conntact-form-wrapper {
-    padding: 64px 0px 0px 42px;
+.get-in-touch-conntact-form-wrapper-one {
+    padding      : 64px 0px 0px 60px;
+    margin-bottom: 40px;
 }
 
 .get-in-touch-conntact-form-wrapper-two {
-    padding: 0px 15px 0px 30px;
+    padding      : 0px 0px 0px 40px;
+    margin-bottom: 50px;
 }
 
 .get-in-touch-conntact-block-style {
@@ -1246,6 +1240,10 @@ font-family   : 'Archivo Black', sans-serif; */
 
 .get-in-touch-conntact-form-img-two {
     margin-top: 5px;
+}
+
+.get-in-touch-conntact-form-item-wrapper {
+    margin-left: 50px;
 }
 
 
@@ -1287,9 +1285,6 @@ font-family   : 'Archivo Black', sans-serif; */
 }
 
 
-
-
-
 .get-in-touch-conntact-call-btn {
     margin-top      : 40px;
     width           : 118px;
@@ -1329,7 +1324,7 @@ font-family   : 'Archivo Black', sans-serif; */
     text-decoration : none;
     border          : solid 1.5px #fff;
     transition      : all .1s linear;
-    margin-left: 10px;
+    margin-left     : 10px;
 }
 
 
@@ -1340,24 +1335,13 @@ font-family   : 'Archivo Black', sans-serif; */
 }
 
 
-.fas-styly-conntact-call-btn{
-   
-}
-.fas-styly-conntact-whatsupp-btn{
-padding-right: 5px;
+.fas-styly-conntact-call-btn {}
+
+.fas-styly-conntact-whatsupp-btn {
+    padding-right: 5px;
 }
 
 /* /GET IN TOUCH conntact */
-
-
-
-
-
-
-
-
-
-
 
 
 /* BLOG  */
@@ -1954,6 +1938,66 @@ padding-right: 5px;
 
 @media (max-width: 576px) {
 
+
+    /* GET IN TOUCH conntact */
+
+
+    .get-in-touch-conntact-block-style {
+        display: inline;
+    }
+
+    .get-in-touch-conntact-form-wrapper-one {
+        padding      : 0px 0px 0px 0px;
+        margin-bottom: 40px;
+        text-align   : center;
+        margin-top   : 50px;
+    }
+
+    .get-in-touch-conntact-form-wrapper-two {
+        padding      : 0px 15px 0px 0px;
+        margin-bottom: 0px;
+        text-align   : center;
+    }
+
+    .get-in-touch-conntact-subtitle {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .get-in-touch-conntact-text {
+        text-align: center;
+    }
+
+    .get-in-touch-conntact-title {
+        margin-top   : -180px;
+        position     : absolute;
+        width        : 200px;
+        font-size    : 20px;
+        margin-bottom: 30px;
+        left         : 32%;
+    }
+
+    .get-in-touch-conntact-form-item-wrapper {
+        margin-left: 0px;
+    }
+
+    .get-in-touch-conntact-form-img-one {
+        width       : 25%;
+        height      : auto;
+        margin-right: 10px;
+    }
+
+    .get-in-touch-conntact-form-img-two {
+        width       : 25%;
+        height      : auto;
+        margin-right: 10px;
+    }
+
+    /* /GET IN TOUCH conntact */
+
+
+
+
     /* meet-the-team */
 
     .meet-the-team {
@@ -2258,7 +2302,6 @@ padding-right: 5px;
         width              : 100%;
         background-position: center;
         background-repeat  : no-repeat;
-
         margin-top: 20px;
     }
 
@@ -2269,7 +2312,6 @@ padding-right: 5px;
 
     .portfoilio-left-block-wrapper {
         background-color: rgba(0, 0, 0, 0.521);
-
         height: 331px;
     }
 
@@ -2283,7 +2325,6 @@ padding-right: 5px;
         padding-left : 40px;
         padding-right: 30px;
         width        : 335px;
-
     }
 
     .portfoilio-right-block-wrapper {
@@ -2375,3 +2416,21 @@ padding-right: 5px;
 
 
     /* /worked with  */
+
+
+    /* GET IN TOUCH conntact */
+
+
+    @media (max-width: 450px) {
+        .get-in-touch-conntact-title {
+            text-align   : center;
+            margin-top   : -149px;
+            position     : absolute;
+            left         : -69%;
+            width        : 200px;
+            font-size    : 20px;
+            margin-bottom: 30px;
+        }
+    }
+
+    /* GET IN TOUCH conntact */
