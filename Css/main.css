@@ -482,7 +482,7 @@ a:hover {
 
 .porfolio-title {
     font-family  : 'Poppins', sans-serif;
-    font-style   : 42px;
+    font-size    : 42px;
     color        : #000000;
     font-weight  : bold;
     text-align   : center;
@@ -908,7 +908,6 @@ a:hover {
 .technologies-we-use-block-wrapper {
     display: flex;
     margin : 0 auto;
-    width  : 1280px;
 }
 
 
@@ -1630,7 +1629,8 @@ font-family   : 'Archivo Black', sans-serif; */
     /* technologies-we-use */
 
     .technologies-we-use-title {
-        font-size: 26.0896px;
+        font-size : 26.0896px;
+        margin-top: 50px;
     }
 
     .technologies-we-use-block-two {
@@ -1639,12 +1639,28 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
     .technologies-we-use {
-        padding: 30px;
+        padding: 15px;
+    }
+
+    .technologies-we-use-block-wrapper {
+        padding-right: 12px;
+        margin-bottom: 50px;
     }
 
 
     /* /technologies-we-use */
 
+
+
+
+    /* top ranking */
+
+    .top-ranking-on-title {
+        font-size: 28.0896px;
+
+    }
+
+    /* top ranking */
 
 
 
@@ -1686,6 +1702,20 @@ font-family   : 'Archivo Black', sans-serif; */
 
 
 
+
+    /* proces-we-follow */
+
+    .pocess-we-follow-title {
+        font-size: 25px;
+    }
+
+
+
+    /* proces-we-follow */
+
+
+
+
     /* what-client-say */
 
     .what-client-say-title {
@@ -1699,9 +1729,20 @@ font-family   : 'Archivo Black', sans-serif; */
 
     /* /what-client-say */
 
-    /* portfolio */
+
+
 
     /* portfolio */
+
+    .porfolio-title {
+        font-size: 25px;
+    }
+
+    /* portfolio */
+
+
+
+
 
     /* worked with */
 
