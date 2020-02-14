@@ -1141,13 +1141,6 @@ a:hover {
 /* /MEET THE TEAM */
 
 
-/* font-family: 'Varela Round', sans-serif;
-font-family   : 'Poppins', sans-serif;
-font-family   : 'Montserrat', sans-serif;
-font-family   : 'Archivo Black', sans-serif; */
-
-
-
 /*  GET IN TOUCH conntact */
 
 .get-in-touch-conntact {
@@ -1335,13 +1328,48 @@ font-family   : 'Archivo Black', sans-serif; */
 }
 
 
-.fas-styly-conntact-call-btn {}
-
 .fas-styly-conntact-whatsupp-btn {
     padding-right: 5px;
 }
 
+
 /* /GET IN TOUCH conntact */
+
+
+
+
+/* SOCIAL */
+
+/* font-family: 'Varela Round', sans-serif;
+font-family   : 'Poppins', sans-serif;
+font-family   : 'Montserrat', sans-serif;
+font-family   : 'Archivo Black', sans-serif; */
+
+.social-item-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.social-name{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.social{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* /SOCIAL */
+
+
 
 
 /* BLOG  */
@@ -1611,7 +1639,6 @@ font-family   : 'Archivo Black', sans-serif; */
 .footer {
     height          : 448.49px;
     background-color: #eeeeee;
-    margin-top      : 100px;
     height          : auto;
 }
 
